@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" />
+    <link rel="stylesheet" href="tablet.css" />
+    <link rel="stylesheet" href="desktop.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Contact (Solomon Healing Therapy)</title>
+  </head>
+  <body>
+    <header>
+      <article class="headercontainer">
+        <div class="navname">
+          <nav class="container">
+            <div class="dropdown">
+              <div class="dropbtn">
+                <a href="services.html"> Services</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <div onclick="secdropDown()" class="dropbtn">
+                <a href="testimonial.html">Testimonials</a>
+              </div>
+
+              <div id="secDropdown" class="dropdown-content"></div>
+            </div>
+            <div class="dropdown">
+              <div onclick="thirddropDown()" class="dropbtn1">
+                <p class="navigation">Contact</p>
+                <span class="material-symbols-outlined"> arrow_drop_down </span>
+              </div>
+              <div id="thirdDropdown" class="dropdown-content">
+                <a href="contact.html">Contact</a>
+                <a href="workwithme.html">Work With Me</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <div onclick="dropDown()" class="dropbtn1">
+                <p class="navigation">About</p>
+                <span class="material-symbols-outlined"> arrow_drop_down </span>
+              </div>
+
+              <div id="myDropdown" class="dropdown-content">
+                <a href="about.html">About Me</a>
+                <a href="soundtherapy.html">Sound Therapy</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="logo">
+          <!-- <div class="logoleft"></div> -->
+          <a href="index.html">
+            <img
+              id="logoimage"
+              src="images/solomonsoundtherapylogo.png"
+              alt="logo"
+          /></a>
+          <!-- <div class="logo2"></div> -->
+        </div>
+        <div class="rightcorner">
+          <a class="bookingButton" href="booking.html"><p>Book Now</p></a>
+          <span id="cart" class="material-symbols-outlined">
+            shopping_cart
+          </span>
+        </div>
+      </article>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </header>
+    <div class="headingcontainer">
+      <h1 class="mainheading">Contact me</h1>
+    </div>
+    <main>
+      <div class="spliting">
+        <div class="contactinfo">
+          <h3 class="contactinforr">Prices, Packages and Gift Certificates</h3>
+          <div class="soundtext">
+            <p>1:1 Sleep coaching and healing therapy session - Dk 850</p>
+            <p>1:1 Healthy money coaching session - Dk 850</p>
+            <p>1:1 Business growth coaching session - Dk 850</p>
+            <p>1:1 Heal trauma coaching and healing session - Dk 850</p>
+            <p>Group online session - Sound meditation and healing - Dk150</p>
+          </div>
+          <h2 class="contactpay">
+            Payment can be made via stripe, PayPal MobilPay
+          </h2>
+          <h3 class="contactinforr">Cancelation</h3>
+          <p class="soundtext">
+            Cancelation must be made at least 24 hours prior to the scheduled
+            appointment. No refund is given if the consultation is cancelled
+            later than 24 hours of the scheduled appointment. No refund is given
+            for unused paid sessions
+          </p>
+          <br />
+        </div>
+        <div class="rightcontact">
+          <h3 class="contactinforr">
+            "Courage is the price that life exacts for granting peace" —Amelia
+            Earhart—
+          </h3>
+          <img class="judycontact" src="images/judycontact.webp" alt="judy" />
+          <p class="soundtext">
+            I offer sessions in Danish, Swedish and English, online and offline
+            I give 20 minutes discovery session for FREE, Why? Because I want to
+            give you a chance, to get to know me and see if we are a good match
+            and if I can help you. I look forward to being of service, offering
+            you the transformational blessings of Sound healing therapy
+          </p>
+        </div>
+      </div>
+      <div class="contactcontainer">
+        <div class="welcome">
+          <p>
+            I'm glad you are here. For any questions, please feel free to send
+            me a message from here and I'll reply your message within 48 hours.
+          </p>
+        </div>
+        <form
+          action="/thanks.html"
+          name="contact"
+          method="POST"
+          data-netlify="true"
+        >
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="Subject..."
+          /><br />
+          <input type="text" id="name" name="name" placeholder="Name" /><br />
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="E-mail"
+          /><br />
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            cols="62"
+            placeholder="Message..."
+          ></textarea
+          ><br />
+          <input type="submit" id="submit" value="Send" />
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="footertext">
+        <p>Judy Solomon</p>
+        <p>Jagtvej 17, Stv</p>
+        <p>DK-2200 København. N</p>
+        <p>Tlf: +45 26 66 33 38</p>
+        <p>CVR nr: 33814860</p>
+        <p>Email: judy@solomonsoundtherapy.dk</p>
+      </div>
+      <div>
+        <img
+          class="footerlogo"
+          src="images/solomonsoundtherapylogo.png"
+          alt="logo"
+        />
+      </div>
+      <div>
+        <p class="footertext">Follow me on social media</p>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+      </div>
+    </footer>
+    <script src="service.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

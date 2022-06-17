@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Macondo&family=Montserrat+Alternates:wght@300&family=Playfair+Display:ital@0;1&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Macondo&family=Montserrat+Alternates:wght@300&family=Playfair+Display:ital@0;1&family=Roboto:wght@300&family=Zen+Maru+Gothic&display=swap");
+
+/* desktop view */
+@media only screen and (min-width: 1024px) {
+  .headercontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: var(--first-color);
+    color: var(--third-color);
+    padding: 0%;
+  }
+  .para {
+    padding-bottom: 2rem;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 3rem;
+  }
+  .navname {
+    padding-left: 1rem;
+  }
+  #logoimage {
+    display: block;
+    height: auto;
+    width: 30%;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .dropbtn1 {
+    display: grid;
+    grid-template-columns: 70% 40%;
+    padding: 16px;
+    font-size: 16px;
+  }
+  #cart {
+    top: 11%;
+    right: 8%;
+  }
+  .rightcorner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .bookingButton p {
+    background-color: var(--third-color);
+    text-align: center;
+    border-radius: 1rem;
+    text-shadow: 2px 2px black;
+    color: var(--first-color);
+    width: 90%;
+  }
+
+  .split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+  }
+  .splitproduct {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .judy {
+    padding-top: 3rem;
+    color: var(--third-color);
+  }
+  .certified {
+    color: var(--third-color);
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .name {
+    padding-top: 3rem;
+    color: var(--third-color);
+    padding-bottom: 3rem;
+  }
+  .tagline {
+    color: var(--third-color);
+    font-family: var(--font-sec);
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+  }
+
+  .informationcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+  }
+
+  .consultation {
+    border-right: 1px solid var(--third-color);
+    border-bottom: none;
+  }
+
+  .servicebutton,
+  .testibutton {
+    width: 22%;
+  }
+
+  .footerlogo {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 30%;
+  }
+  .fa {
+    padding: 1rem;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa-facebook,
+  .fa-instagram,
+  .fa-youtube,
+  .fa-linkedin {
+    color: var(--acc-color);
+  }
+  .footertext {
+    padding-left: 2rem;
+  }
+  #testiImg {
+    border-radius: 50%;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-bottom: 1rem;
+  }
+  .containtesti {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 200px));
+  }
+  .testiname {
+    padding: 1rem;
+  }
+  .testhead {
+    display: none;
+  }
+
+  form {
+    text-align: center;
+  }
+
+  .judycontact {
+    display: block;
+    height: 60%;
+    width: auto;
+  }
+  .rightcontact {
+    padding: 1rem;
+    background-color: var(--third-color);
+    color: var(--first-color);
+    margin-bottom: 1rem;
+  }
+  .spliting {
+    display: grid;
+    justify-content: center;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 200px));
+  }
+  .judyimgg {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  .judyimgs {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+  }
+  .productheading {
+    text-align: center;
+    color: var(--third-color);
+    padding: 1rem;
+  }
+  .centeredrightproduct {
+    color: var(--third-color);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+  }
+  .productimg {
+    display: block;
+    width: 90%;
+    margin-bottom: auto;
+    height: auto;
+  }
+
+  .soundimgs {
+    padding-bottom: 3rem;
+  }
+  .lasttext {
+    padding-bottom: 2rem;
+  }
+  .soundright li {
+    list-style-type: disc;
+  }
+  .fircontain,
+  .judyin,
+  .secimg,
+  .third,
+  .forth {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .aboutcontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 200px));
+    grid-column-gap: 0rem;
+  }
+}

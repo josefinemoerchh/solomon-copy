@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Macondo&family=Montserrat+Alternates:wght@300&family=Playfair+Display:ital@0;1&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Macondo&family=Montserrat+Alternates:wght@300&family=Playfair+Display:ital@0;1&family=Roboto:wght@300&family=Zen+Maru+Gothic&display=swap");
+
+/* mobile view */
+@media only screen and (max-width: 600px) {
+  header {
+    background-color: var(--first-color);
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+
+  h2 {
+    font-size: 130%;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 140%;
+  }
+
+  p {
+    font-size: 80%;
+  }
+
+  .burger {
+    position: absolute;
+    top: 7%;
+    background-color: var(--first-color);
+    display: block;
+    cursor: pointer;
+  }
+  .burger div {
+    background-color: var(--third-color);
+  }
+  .bookingButton p {
+    width: 100%;
+  }
+  #cart {
+    right: 0%;
+  }
+  .split {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .centeredright {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .dropbtn a {
+    color: var(--first-color);
+  }
+  .dropdown-content {
+    transform: translateX(60%);
+  }
+  body {
+    overflow-x: hidden;
+  }
+
+  .list_menu_active {
+    transform: translateX(0%);
+  }
+  li a {
+    color: var(--first-color);
+  }
+
+  .line1_active {
+    color: var(--third-color);
+    transform: rotate(45deg) translateX(10px);
+    transition: transform 400ms ease-in-out;
+  }
+  .line3_active {
+    transform: rotate(-45deg) translateX(14px) translateY(-3px);
+    transition: transform 400ms ease-in-out;
+  }
+  .line2_active {
+    transform: translateX(100vh);
+    transition: transform 400ms ease-in-out;
+  }
+
+  /* testimonials  */
+  #testiImg {
+    border-radius: 50%;
+    display: block;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 1rem;
+  }
+  .testiname {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .testheads {
+    display: none;
+  }
+  /* contact */
+  form {
+    text-align: left;
+  }
+  #email {
+    width: 55%;
+  }
+  #message {
+    width: 70%;
+  }
+
+  .rightcontact {
+    padding: 1rem;
+    background-color: var(--third-color);
+    color: var(--first-color);
+    margin-bottom: 1rem;
+  }
+  .bookingcontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 100px));
+    grid-gap: 1rem;
+    text-align: center;
+    justify-content: center;
+  }
+  .aboutcontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 100px));
+    grid-template-rows: repeat(auto-fill, minmax(100px, 500px));
+    grid-gap: 5rem;
+    padding: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  .abouttext {
+    padding: 1rem;
+    padding-right: 2rem;
+  }
+  .judyin {
+    text-align: center;
+    padding: 1rem;
+    padding-bottom: 3rem;
+  }
+  .fircontain {
+    padding: 1rem;
+  }
+
+  .third {
+    padding-bottom: 6rem;
+  }
+  .forth {
+    padding-bottom: 9rem;
+  }
+  .workcontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(470px, 100px));
+    padding-left: 1rem;
+    border-bottom: 1px solid var(--third-color);
+    padding-bottom: 2rem;
+  }
+}

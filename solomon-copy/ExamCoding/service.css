@@ -1,0 +1,28 @@
+/* mobileview */
+@media only screen and (max-width: 600px) {
+  .headercontainer {
+    padding: 5rem;
+  }
+  .container {
+    position: absolute;
+    left: 2%;
+  }
+}
+/* tablet view */
+@media only screen and (min-width: 601px) {
+  .headercontainer {
+    padding: 8rem;
+  }
+}
+
+/* desktop view */
+@media only screen and (min-width: 768px) {
+  .headercontainer {
+    padding: 8rem;
+  }
+  .container {
+    position: absolute;
+    left: 1%;
+    top: 1%;
+  }
+}

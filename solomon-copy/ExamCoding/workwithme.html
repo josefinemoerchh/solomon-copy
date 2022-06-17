@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" />
+    <link rel="stylesheet" href="tablet.css" />
+    <link rel="stylesheet" href="desktop.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Woek With Me (Solomon Healing Therapy)</title>
+  </head>
+  <body>
+    <header>
+      <article class="headercontainer">
+        <div class="navname">
+          <nav class="container">
+            <div class="dropdown">
+              <div class="dropbtn">
+                <a href="services.html"> Services</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <div onclick="secdropDown()" class="dropbtn">
+                <a href="testimonial.html">Testimonials</a>
+              </div>
+
+              <div id="secDropdown" class="dropdown-content"></div>
+            </div>
+            <div class="dropdown">
+              <div onclick="thirddropDown()" class="dropbtn1">
+                <p class="navigation">Contact</p>
+                <span class="material-symbols-outlined"> arrow_drop_down </span>
+              </div>
+              <div id="thirdDropdown" class="dropdown-content">
+                <a href="contact.html">Contact</a>
+                <a href="workwithme.html">Work With Me</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <div onclick="dropDown()" class="dropbtn1">
+                <p class="navigation">About</p>
+                <span class="material-symbols-outlined"> arrow_drop_down </span>
+              </div>
+
+              <div id="myDropdown" class="dropdown-content">
+                <a href="about.html">About Me</a>
+                <a href="soundtherapy.html">Sound Therapy</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="logo">
+          <!-- <div class="logoleft"></div> -->
+          <a href="index.html">
+            <img
+              id="logoimage"
+              src="images/solomonsoundtherapylogo.png"
+              alt="logo"
+          /></a>
+          <!-- <div class="logo2"></div> -->
+        </div>
+        <div class="rightcorner">
+          <a class="bookingButton" href="booking.html"><p>Book Now</p></a>
+          <span id="cart" class="material-symbols-outlined">
+            shopping_cart
+          </span>
+        </div>
+      </article>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </header>
+    <div class="headingcontainer">
+      <h1 class="mainheading">Work with me!</h1>
+    </div>
+    <main class="workcontainer">
+      <div class="fircontainer">
+        <p class="abouttext">
+          I help people to re-tune and re-calibrate their energy systems with a
+          powerful sound healing modality.
+        </p>
+        <br />
+        <p class="abouttext">
+          As a Certified Sound therapist / Soul Voice® Practitioner, and coach,
+          I’m here to help people to up-level their primary vibration by healing
+          what’s holding them back. ​
+        </p>
+        <p class="abouttext">
+          If you’ve never heard of sound healing, it may seem odd that it could
+          help you to show up more fully in your business, make more money, or
+          stand elegantly in your power… ​
+        </p>
+        <br />
+        <p class="abouttext">
+          But it CAN… <br />
+
+          And it DOES… <br />
+
+          And SOOOO much more! <br />
+        </p>
+      </div>
+      <div class="judyin">
+        <img class="judyimg" src="images/judy4.webp" alt="judy" />
+      </div>
+    </main>
+    <footer>
+      <div class="footertext">
+        <p>Judy Solomon</p>
+        <p>Jagtvej 17, Stv</p>
+        <p>DK-2200 København. N</p>
+        <p>Tlf: +45 26 66 33 38</p>
+        <p>CVR nr: 33814860</p>
+        <p>Email: judy@solomonsoundtherapy.dk</p>
+      </div>
+      <div>
+        <img
+          class="footerlogo"
+          src="images/solomonsoundtherapylogo.png"
+          alt="logo"
+        />
+      </div>
+      <div>
+        <p class="footertext">Follow me on social media</p>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
